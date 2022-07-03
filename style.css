@@ -9,6 +9,13 @@ Body{
         min-width: 980px;
 
 }
+media screen and (max-width:480px){
+        
+        footer{
+                
+        height: 60vh;
+        }
+}
 header {
   display: flex;
   justify-content: flex-end;
@@ -122,6 +129,10 @@ font-size: 40px
         font-weight: bold;
               font-family: 'gulzar',serif;
               animation: 3s load;
+              min-width: 330px;
+
+
+
 
 }
 .imgan{
