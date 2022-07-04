@@ -9,13 +9,7 @@ Body{
         min-width: 980px;
 
 }
-media screen and (max-width:480px){
-        
-        footer{
-                
-        height: 60vh;
-        }
-}
+
 header {
   display: flex;
   justify-content: flex-end;
@@ -310,6 +304,13 @@ footer{
         overflow: hidden;
               min-width: 480px;
 
+}
+@media screen and (max-width:480px){
+        
+        footer{
+                
+        height: 60vh;
+        }
 }
 .paraone{
         color:#1DE9FF;
