@@ -9,7 +9,11 @@ Body{
         min-width: 980px;
 
 }
-
+@media screen and (min-width: 1366px){
+        footer{
+                height:100vh;
+        }
+}
 header {
   display: flex;
   justify-content: flex-end;
